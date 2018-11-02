@@ -38,3 +38,6 @@ then use R script, Pos_DS to calculate dosage value from ANGSD output and gives 
 0.135980 0.102306 0.097884      0 0.000149
 1.063783 0.102306 0.097884      0 0.000005
 ```
+
+# MCPCA R 
+If the user doesn't want to call Matlab, there is an testing R script MCPCA_algorithm.R, which can run MCPCA without loading Matlab code. But since it has two for loops, the speed is very slow once the sample size is big
